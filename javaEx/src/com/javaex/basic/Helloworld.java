@@ -12,5 +12,6 @@ public class Helloworld {
 	public static void main(String[] args) {
 		// 출력코드
 		System.out.println("Hello, World!");
+//		test
 	}
 }

@@ -5,7 +5,44 @@ public class TypeEx {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		floatDouble();
+		booleanEx();
+		charEx();
 	}
+	
+	
+	// char 형 연습
+	public static void charEx() {
+		// 2바이트(부호없음)
+		// 유니코드 한 글자의 수치화된 코드
+		// ' <- char
+		// " <- String
+		char ch1 = 'A';
+		char ch2 = '한';
+		
+		System.out.println("A ->"+ch1);
+		System.out.println("B =>"+ch2);
+		
+		System.out.println(ch1+ch2);
+		
+	}
+	// boolean 연습
+	public static void booleanEx() {
+		// 논리값 tru or false
+		boolean b1 = true;
+		boolean b2 = false;
+		
+		System.out.println(b1);
+		System.out.println(b2);
+		
+		int v1 = 3;
+		int v2 = 5;
+		
+		boolean result = v1 < v2;
+		System.out.println("v1 < v2 1? "+result);
+		
+	}
+	
+	
 	
 	public static void floatDouble() {
 		

@@ -3,9 +3,12 @@ package com.javaex.basic.reftypes;
 public class StringEx {
 
 	public static void main(String[] args) {
-		stringBasic();
+		//stringBasic();
 		//stringFormat();
 	}
+	
+	
+	
 	
 	public static void stringFormat() {
 		// 포맷 문자

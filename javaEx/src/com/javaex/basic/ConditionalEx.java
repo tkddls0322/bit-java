@@ -68,6 +68,7 @@ public class ConditionalEx {
 			System.out.println(dan + " * "+i+" = "+(dan*i));
 			i++;
 		}
+		scanner.close();
 	}
 	
 	public static void whileEx() {
@@ -108,7 +109,7 @@ public class ConditionalEx {
 		default:
 			System.out.println("관리자에문의");
 		}
-		
+		scan.close();
 	}
 	
 	
@@ -131,7 +132,7 @@ public class ConditionalEx {
 			System.out.println("관리자문의");
 		}
 		
-		
+		scan.close();
 	}
 	
 	
@@ -158,7 +159,7 @@ public class ConditionalEx {
 			}
 		}
 		
-		
+		scanner.close();
 		
 		
 	}
@@ -179,7 +180,7 @@ public class ConditionalEx {
 		else {
 			System.out.println("불합격");
 		}
-		
+		scanner.close();
 	}
 
 }

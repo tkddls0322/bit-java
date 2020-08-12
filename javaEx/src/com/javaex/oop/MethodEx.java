@@ -32,6 +32,8 @@ public class MethodEx {
 	private static double sum(double a, double b) {
 		return a+b; // 데이터는 double이어야 한다
 	}
+	
+	
 
 	private static void printMessage(String message) {
 		// return할 데이터가 없으면 void

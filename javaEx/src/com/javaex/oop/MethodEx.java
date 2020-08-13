@@ -15,8 +15,7 @@ public class MethodEx {
 	// 순서 : 고정 인수 -> 가변 인수
 	private static void printSum(String message, double ...values) {
 		double total = sum(values);
-		System.out.println(message + ":" + total);
-		
+		System.out.println(message + ":" + total);		
 	}
 	
 	// 가변인수
@@ -32,8 +31,6 @@ public class MethodEx {
 	private static double sum(double a, double b) {
 		return a+b; // 데이터는 double이어야 한다
 	}
-	
-	
 
 	private static void printMessage(String message) {
 		// return할 데이터가 없으면 void

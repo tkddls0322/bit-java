@@ -16,8 +16,8 @@ public class Point {
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
-		
 	}
+	
 	// 	getters/setters
 	public int getX() {
 		return x;

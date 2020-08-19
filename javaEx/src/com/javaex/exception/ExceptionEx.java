@@ -33,7 +33,7 @@ public class ExceptionEx {
 			System.err.println("런타임 예외 메시지:"+e.getMessage());
 		} 
 		
-		
+	
 	}
 	
 	// 가장 흔히 발생하는 예외

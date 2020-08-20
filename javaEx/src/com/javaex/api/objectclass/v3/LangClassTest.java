@@ -17,7 +17,8 @@ public class LangClassTest {
 		p2.setX(30);
 		p2.setY(100);
 		System.out.println("p2 = " + p2);
-		System.out.println(p);
+		
+		
 	}
 
 }
